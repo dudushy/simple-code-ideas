@@ -1,5 +1,5 @@
 # simple-code-ideas
-A compilation of good ideas for those new programmers
+A compilation of good ideas for those new programmers.
 
 ## Suggestions
 _pull request?_
