@@ -8,12 +8,12 @@ A compilation of good ideas for those new programmers.
 ## :warning: Suggestions
 _to be developed... [pull request?]_
 ## Ideas
-1. [Math Solver](#math-solver)
-2. [Memo](#memo)
-3. [Wallpaper Changer](#wallpaper-changer)
-4. [Timer](#timer)
-5. [Quiz](#quiz)
-6. [Money Counter](#money-counter)
+1. [Math Solver](#math-solver) :x:
+2. [Memo](#memo) :x:
+3. [Wallpaper Changer](#wallpaper-changer) :x:
+4. [Timer](#timer) :no_entry:
+5. [Quiz](#quiz) :x:
+6. [Money Counter](#money-counter) :x:
 ---
 ### [Math Solver](https://github.com/dudushy/simple-code-ideas/tree/math-solver)
 A program with modules to solve mathematical equations (each module must be a "mathematical formula").
