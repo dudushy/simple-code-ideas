@@ -4,12 +4,12 @@ A compilation of good ideas for those new programmers
 ## Suggestions
 _pull request?_
 ### Ideas
-1. [Math Solver](#1)
-2. [Memo](#2)
-3. [Wallpaper Changer](#3)
-4. [Timer](#4)
-5. [Quiz](#5)
-6. [Money Counter](#6)
+1. [Math Solver](#math-solver)
+2. [Memo](#memo)
+3. [Wallpaper Changer](#wallpaper-changer)
+4. [Timer](#timer)
+5. [Quiz](#quiz)
+6. [Money Counter](#money-counter)
 ## Math Solver
 _description_
 
