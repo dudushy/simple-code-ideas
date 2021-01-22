@@ -1,29 +1,26 @@
 #@dudushy @Drinpe
-
-"""
-00h00m00s
-01
-01 = 1
-
-"""
+#https://github.com/dudushy/simple-code-ideas/tree/timer
 
 #imports
 import datetime, os, time
 
 #vars
-nowHM = datetime.datetime.now().strftime('%H') + ":" + datetime.datetime.now().strftime('%M') #date format HH:MM
+
 
 #functions
 def clear():
     os.system('cls') #windows: cls; linux: clear
 
-def getNow():
+def getNowHM():
+    return datetime.datetime.now().strftime('%H') + ":" + datetime.datetime.now().strftime('%M') #date format HH:MM
+
+def getNowHMS():
     return datetime.datetime.now().strftime('%H') + ":" + datetime.datetime.now().strftime('%M') + ":" + datetime.datetime.now().strftime('%S') #date format HH:MM:SS
 
 def timer():
     header = ("/===========================================/\n"
             + "/           Timer v0.0.1 [timer]            /\n" 
-            + f"/==================[{nowHM}]==================/\n")
+            + f"/==================[{getNowHM()}]==================/\n")
 
     #get HH:MM:SS
     print(header
@@ -37,10 +34,13 @@ def timer():
     print(header
         + "/ Let's set a timer, for how long?")
     seconds = input(f"/ Enter the seconds: \n/ :> {hours}:{minutes}:")
-    print(f"{hours}:{minutes}:{seconds}")
 
-    #calculate how long to wait  
-    waitS = (int(hours) * 3600) + (int(minutes) * 60) + int(seconds) #in seconds
+    #confirm action
+    print(header
+        + f"{hours}:{minutes}:{seconds}")
+
+    #calculate how long to wait (in seconds)
+    waitS = (int(hours) * 3600) + (int(minutes) * 60) + int(seconds)
 
     #actual wait loop
     while waitS != 0:
@@ -55,26 +55,26 @@ def timer():
         #string manipulation 0 before number below 10 -> 0X --end
         
         print(f"Remaining time = [{hours}:{minutes}:{seconds}]")
-        time.sleep(1)
-        seconds = int(seconds) - 1
+        time.sleep(1) #wait 1s
+        seconds = int(seconds) - 1 #decrement seconds
         if seconds == 0:
-            minutes = int(minutes) - 1
-            seconds = 60
+            minutes = int(minutes) - 1 #decrement minutes
+            seconds = 60 #reset seconds
         if minutes == 60:
-            hours = int(hours) - 1
-            minutes = 0
-        waitS -= 1
+            hours = int(hours) - 1 #decrement hours
+            minutes = 0 #reset minutes
+        waitS -= 1 #decrement total wait time (in seconds)
     clear()
-    print("Done!")
+    print("Done! = [00:00:00]")
 
 
 
 def alarm():
     #calculate how long to wait -begin
     #now string = "HH:MM:SS"
-    nowH = getNow()[0:2] #"HH:MM:SS" [0:2]
-    nowM = getNow()[3:5] #"HH:MM:SS" [3:5]
-    nowS = getNow()[6:8] #"HH:MM:SS" [6:8]
+    nowH = getNowHMS()[0:2] #"HH:MM:SS" [0:2]
+    nowM = getNowHMS()[3:5] #"HH:MM:SS" [3:5]
+    nowS = getNowHMS()[6:8] #"HH:MM:SS" [6:8]
 
     waitS = None #in seconds
     #calculate how long to wait -end
@@ -85,7 +85,7 @@ def alarm():
 def menu():
     header = ("/===========================================/\n"
             + "/                Timer v0.0.1               /\n" 
-            + f"/==================[{nowHM}]==================/\n")
+            + f"/==================[{getNowHM()}]==================/\n")
     
     #menu loop
     while True:
