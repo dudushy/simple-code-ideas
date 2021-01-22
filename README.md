@@ -1,8 +1,10 @@
 # simple-code-ideas
 A compilation of good ideas for those new programmers.
 
-*Status: :heavy_check_mark: `0` | :no_entry: `1` | :x: `5`*
-
+**Status:**
+:heavy_check_mark: | :no_entry: | :x:
+--- | --- | ---
+0 | 1 | 5
 ## :warning: Suggestions
 _to be developed... [pull request?]_
 ### Ideas
