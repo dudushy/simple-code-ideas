@@ -4,26 +4,26 @@ A compilation of good ideas for those new programmers
 ## Suggestions
 _pull request?_
 ### Ideas
-1. [Math Solver](https://github.com/dudushy/simple-code-ideas/tree/math-solver)
-2. [Memo](https://github.com/dudushy/simple-code-ideas/tree/memo)
-3. [Wallpaper Changer](https://github.com/dudushy/simple-code-ideas/tree/wallpaper-changer)
-4. [Timer](https://github.com/dudushy/simple-code-ideas/tree/timer)
-5. [Quiz](https://github.com/dudushy/simple-code-ideas/tree/quiz)
-6. [Money Counter](https://github.com/dudushy/simple-code-ideas/tree/money-counter)
-## Math Solver
+1. [Math Solver](#math-solver)
+2. [Memo](#memo)
+3. [Wallpaper Changer](#wallpaper-changer)
+4. [Timer](#timer)
+5. [Quiz](#quiz)
+6. [Money Counter](#money-counter)
+## [Math Solver](https://github.com/dudushy/simple-code-ideas/tree/math-solver)
 _description_
 
 ## [Memo](https://github.com/dudushy/simple-code-ideas/tree/memo)
 _description_
 
-## Wallpaper Changer
+## [Wallpaper Changer](https://github.com/dudushy/simple-code-ideas/tree/wallpaper-changer)
 _description_
 
-## Timer
+## [Timer](https://github.com/dudushy/simple-code-ideas/tree/timer)
 _description_
 
-## Quiz
+## [Quiz](https://github.com/dudushy/simple-code-ideas/tree/quiz)
 _description_
 
-## Money Counter
+## [Money Counter](https://github.com/dudushy/simple-code-ideas/tree/money-counter)
 _description_
