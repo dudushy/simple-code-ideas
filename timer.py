@@ -6,7 +6,6 @@ import datetime, os, time
 
 #vars
 
-
 #functions
 def clear():
     os.system('cls') #windows: cls; linux: clear
