@@ -3,8 +3,7 @@
 """
 00h00m00s
 01
-01:22
-01:22:
+01 = 1
 
 """
 
@@ -44,8 +43,17 @@ def timer():
     waitS = (int(hours) * 3600) + (int(minutes) * 60) + int(seconds) #in seconds
 
     #actual wait loop
-    while waitS == 0:
+    while waitS != 0:
         clear()
+        #string manipulation 0 before number below 10 -> 0X --begin
+        if int(hours) < 10:
+            hours = f"0{int(hours)}"
+        if int(minutes) < 10:
+            minutes = f"0{int(minutes)}"
+        if int(seconds) < 10:
+            seconds = f"0{int(seconds)}"
+        #string manipulation 0 before number below 10 -> 0X --end
+        
         print(f"Remaining time = [{hours}:{minutes}:{seconds}]")
         time.sleep(1)
         seconds = int(seconds) - 1
@@ -56,6 +64,8 @@ def timer():
             hours = int(hours) - 1
             minutes = 0
         waitS -= 1
+    clear()
+    print("Done!")
 
 
 
