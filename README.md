@@ -13,7 +13,7 @@ _pull request?_
 ## Math Solver
 _description_
 
-## Memo
+## [Memo](https://github.com/dudushy/simple-code-ideas/tree/memo)
 _description_
 
 ## Wallpaper Changer
