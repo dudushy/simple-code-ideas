@@ -14,6 +14,7 @@ _to be developed... [pull request?]_
 4. [Timer](#timer)
 5. [Quiz](#quiz)
 6. [Money Counter](#money-counter)
+---
 ### [Math Solver](https://github.com/dudushy/simple-code-ideas/tree/math-solver)
 A program with modules to solve mathematical equations (each module must be a "mathematical formula").
 #### Example:
@@ -22,6 +23,7 @@ _output: `delta=256, x1=1, x2=-7`_
 
 #### Status: :x:
 
+---
 ### [Memo](https://github.com/dudushy/simple-code-ideas/tree/memo)
 A notepad for saving text, images and videos. (change the date format depending on your country).
 #### Example:
@@ -30,6 +32,7 @@ _output: `saved. (title/date/time)`_\
 _output: `new note, edit notes, close`_
 #### Status: :x:
 
+---
 ### [Wallpaper Changer](https://github.com/dudushy/simple-code-ideas/tree/wallpaper-changer)
 A program that searches for images and allows the user to change their background image.
 #### Example:
@@ -38,6 +41,7 @@ _output: `[img1, img2, ..., imgN]`_\
 _input: `2`_
 #### Status: :x:
 
+---
 ### [Timer](https://github.com/dudushy/simple-code-ideas/tree/timer)
 A timer + clock + alarm (change the format depending on your country).
 #### Example:
@@ -45,6 +49,7 @@ _input: `clock`_\
 _output: `02:00 PM`_
 #### Status: :no_entry:
 
+---
 ### [Quiz](https://github.com/dudushy/simple-code-ideas/tree/quiz)
 A quiz with random questions and correct answers, practically a game, an example: 10 questions, the highest score wins.
 #### Example:
@@ -53,6 +58,7 @@ _input: `B`_\
 _output: `True`_
 #### Status: :x:
 
+---
 ### [Money Counter](https://github.com/dudushy/simple-code-ideas/tree/money-counter)
 User enters an X amount of money, the output must be the same amount but separated into dollars and cents (change currency depending on your country).
 #### Example:
