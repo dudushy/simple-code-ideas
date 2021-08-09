@@ -20,12 +20,6 @@ for i in range(18):
     char = random.choices([lowerChar, upperChar, numberChar, symbolChar],[25, 25, 25, 25], k=1)
 
     password += char[0]
-print(f'Strong password: {password}\n')
+print(f'Strong password (18 chars): {password}\n')
 
 os.system('pause')
-
-"""
-for char in range(18):
-    password += random.choices([lowers[random.randrange(len(lowers))], uppers[random.randrange(len(uppers))], numbers[random.randrange(len(numbers))], symbols[random.randrange(len(symbols))]],[25, 25, 25, 25], k=1)[0]
-    print(f'Strong password: {password}\n')
-"""
