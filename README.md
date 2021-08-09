@@ -4,7 +4,7 @@ A compilation of good ideas for those new programmers.
 **Status:**
 :heavy_check_mark: Done | :no_entry: Developing | :x: Not started
 --- | --- | ---
-0 | 1 | 5
+1 | 1 | 5
 ## :warning: Suggestions
 _to be developed... [pull request?]_
 ## Ideas
@@ -72,4 +72,4 @@ _output:_ `[10, 2, 2, .50]`
 Just run and copy your strong password.
 #### Example:
 _output:_ `sTr0nG_!p4sSw0rD=`
-#### Status: :x:
+#### Status: :heavy_check_mark:
