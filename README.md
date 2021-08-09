@@ -14,7 +14,7 @@ _to be developed... [pull request?]_
 4. [Timer](#timer) :no_entry:
 5. [Quiz](#quiz) :x:
 6. [Money Counter](#money-counter) :x:
-7. [Password Generator](#password-generator) :x:
+7. [Password Generator](#password-generator) :heavy_check_mark:
 ---
 ### [Math Solver](https://github.com/dudushy/simple-code-ideas/tree/math-solver)
 A program with modules to solve mathematical equations (each module must be a "mathematical formula").
