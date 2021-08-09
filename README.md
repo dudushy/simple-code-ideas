@@ -14,6 +14,7 @@ _to be developed... [pull request?]_
 4. [Timer](#timer) :no_entry:
 5. [Quiz](#quiz) :x:
 6. [Money Counter](#money-counter) :x:
+7. [Password Generator](#password-generator) :x:
 ---
 ### [Math Solver](https://github.com/dudushy/simple-code-ideas/tree/math-solver)
 A program with modules to solve mathematical equations (each module must be a "mathematical formula").
@@ -64,4 +65,11 @@ User enters an X amount of money, the output must be the same amount but separat
 #### Example:
 _input:_ `14.50`\
 _output:_ `[10, 2, 2, .50]`
+#### Status: :x:
+
+---
+### [Password Generator](https://github.com/dudushy/simple-code-ideas/tree/password-generator)
+Just run and copy your strong password.
+#### Example:
+_output:_ `sTr0nG_!p4sSw0rD=`
 #### Status: :x:
