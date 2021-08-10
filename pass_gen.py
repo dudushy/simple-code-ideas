@@ -11,7 +11,7 @@ password = ''
 # main
 os.system('cls') # 'cls' for windows, 'clear' for linux/android
 
-for i in range(18):
+for _ in range(18):
     lowerChar = lowers[random.randrange(len(lowers))]
     upperChar = uppers[random.randrange(len(uppers))]
     numberChar = numbers[random.randrange(len(numbers))]
