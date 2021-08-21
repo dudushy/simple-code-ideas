@@ -37,6 +37,7 @@ clear()
 
 while True:
     try:
+        clear()
         money['init_money'] = float(input('Please insert how much money do you want to count | example (14.98): '))
         break #if the value checks as a flot: pass
     except Exception as e:
