@@ -45,61 +45,59 @@ while loop == "y":
         except Exception as e:
             continue #if the value isn't a float: fail
 
-    loadAnimation(2)
+    #loadAnimation(2)
 
     money['crnt_money'] = money['init_money']
-    while True:
-        if money['crnt_money'] >= 100:
-            money['crnt_money'] -= 100
-            money['100_bill'] += 1
-            continue
-        if money['crnt_money'] >= 50:
-            money['crnt_money'] -= 50
-            money['50_bill'] += 1
-            continue
-        if money['crnt_money'] >= 20:
-            money['crnt_money'] -= 20
-            money['20_bill'] += 1
-            continue
-        if money['crnt_money'] >= 10:
-            money['crnt_money'] -= 10
-            money['10_bill'] += 1
-            continue
-        if money['crnt_money'] >= 5:
-            money['crnt_money'] -= 5
-            money['5_bill'] += 1
-            continue
-        if money['crnt_money'] >= 1:
-            money['crnt_money'] -= 1
-            money['1_bill'] += 1
-            continue
-        if money['crnt_money'] >= 0.75:
-            money['crnt_money'] -= 0.75
-            money['75_cent'] += 1
-            continue
-        if money['crnt_money'] >= 0.50:
-            money['crnt_money'] -= 0.50
-            money['50_cent'] += 1
-            continue
-        if money['crnt_money'] >= 0.25:
-            money['crnt_money'] -= 0.25
-            money['25_cent'] += 1
-            continue
-        if money['crnt_money'] >= 0.10:
-            money['crnt_money'] -= 0.10
-            money['10_cent'] += 1
-            continue
-        if money['crnt_money'] >= 0.05:
-            money['crnt_money'] -= 0.05
-            money['5_cent'] += 1
-            continue
-        if money['crnt_money'] >= 0.01:
-                money['crnt_money'] -= 0.01
-                money['1_cent'] += 1
-                continue
-        break
+    while money['crnt_money'] >= 100:
+        money['crnt_money'] = round(money['crnt_money'] - 100, 2)
+        money['100_bill'] += 1
+        print(f"!100 = {money['crnt_money'] + 100} > {money['crnt_money']}")
+    while money['crnt_money'] >= 50:
+        money['crnt_money'] = round(money['crnt_money'] - 50, 2)
+        money['50_bill'] += 1
+        print(f"!50 = {money['crnt_money'] + 50} > {money['crnt_money']}")
+    while money['crnt_money'] >= 20:
+        money['crnt_money'] = round(money['crnt_money'] - 20, 2)
+        money['20_bill'] += 1
+        print(f"!20 = {money['crnt_money'] + 20} > {money['crnt_money']}")
+    while money['crnt_money'] >= 10:
+        money['crnt_money'] = round(money['crnt_money'] - 10, 2)
+        money['10_bill'] += 1
+        print(f"!10 = {money['crnt_money'] + 10} > {money['crnt_money']}")
+    while money['crnt_money'] >= 5:
+        money['crnt_money'] = round(money['crnt_money'] - 5, 2)
+        money['5_bill'] += 1
+        print(f"!5 = {money['crnt_money'] + 5} > {money['crnt_money']}")
+    while money['crnt_money'] >= 1:
+        money['crnt_money'] = round(money['crnt_money'] - 1, 2)
+        money['1_bill'] += 1
+        print(f"!1 = {money['crnt_money'] + 1} > {money['crnt_money']}")
+    while money['crnt_money'] >= 0.75:
+        money['crnt_money'] = round(money['crnt_money'] - 0.75, 2)
+        money['75_cent'] += 1
+        print(f"!.75 = {money['crnt_money'] + 0.75} > {money['crnt_money']}")
+    while money['crnt_money'] >= 0.50:
+        money['crnt_money'] = round(money['crnt_money'] - 0.50, 2)
+        money['50_cent'] += 1
+        print(f"!.50 = {money['crnt_money'] + 0.50} > {money['crnt_money']}")
+    while money['crnt_money'] >= 0.25:
+        money['crnt_money'] = round(money['crnt_money'] - 0.25, 2)
+        money['25_cent'] += 1
+        print(f"!.25 = {money['crnt_money'] + 0.25} > {money['crnt_money']}")
+    while money['crnt_money'] >= 0.10:
+        money['crnt_money'] = round(money['crnt_money'] - 0.10, 2)
+        money['10_cent'] += 1
+        print(f"!.10 = {money['crnt_money'] + 0.10} > {money['crnt_money']}")
+    while money['crnt_money'] >= 0.05:
+        money['crnt_money'] = round(money['crnt_money'] - 0.05, 2)
+        money['5_cent'] += 1
+        print(f"!.05 = {money['crnt_money'] + 0.05} > {money['crnt_money']}")
+    while money['crnt_money'] >= 0.01:
+        money['crnt_money'] = round(money['crnt_money'] - 0.01, 2)
+        money['1_cent'] += 1
+        print(f"!.01 = {money['crnt_money'] + 0.01} > {money['crnt_money']}")
 
-    clear()
+    #clear()
     print(f"-Amount [${money['init_money']}]\n")
     if money['100_bill'] != 0:
         print(f"@ [{money['100_bill']}] $100")
