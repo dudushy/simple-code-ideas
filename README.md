@@ -4,7 +4,7 @@ A compilation of good ideas for those new programmers.
 **Status:**
 :heavy_check_mark: Done | :no_entry: Developing | :x: Not started
 --- | --- | ---
-1 | 1 | 5
+2 | 1 | 4
 ## :warning: Suggestions
 _to be developed... [pull request?]_
 ## Ideas
@@ -13,7 +13,7 @@ _to be developed... [pull request?]_
 3. [Wallpaper Changer](#wallpaper-changer) :x:
 4. [Timer](#timer) :no_entry:
 5. [Quiz](#quiz) :x:
-6. [Money Counter](#money-counter) :x:
+6. [Money Counter](#money-counter) :heavy_check_mark:
 7. [Password Generator](#password-generator) :heavy_check_mark:
 ---
 ### [Math Solver](https://github.com/dudushy/simple-code-ideas/tree/math-solver)
@@ -61,11 +61,11 @@ _output:_ `True`
 
 ---
 ### [Money Counter](https://github.com/dudushy/simple-code-ideas/tree/money-counter)
-User enters an X amount of money, the output must be the same amount but separated into dollars and cents (change currency depending on your country).
+User enters an X amount of money, the output must be the same amount but separated into dollars and cents.
 #### Example:
 _input:_ `14.50`\
 _output:_ `[10, 2, 2, .50]`
-#### Status: :x:
+#### Status: :heavy_check_mark:
 
 ---
 ### [Password Generator](https://github.com/dudushy/simple-code-ideas/tree/password-generator)
