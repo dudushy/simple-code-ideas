@@ -5,7 +5,7 @@ import os, time
 loop = "y"
 money = {
     'init_money': 0.0,
-    'crrt_money': 0.0,
+    'crnt_money': 0.0,
     '100_bill': 0,
     '50_bill': 0,
     '20_bill': 0,
@@ -47,54 +47,54 @@ while loop == "y":
 
     loadAnimation(2)
 
-    money['crrt_money'] = money['init_money']
+    money['crnt_money'] = money['init_money']
     while True:
-        if money['crrt_money'] >= 100:
-            money['crrt_money'] -= 100
+        if money['crnt_money'] >= 100:
+            money['crnt_money'] -= 100
             money['100_bill'] += 1
             continue
-        if money['crrt_money'] >= 50:
-            money['crrt_money'] -= 50
+        if money['crnt_money'] >= 50:
+            money['crnt_money'] -= 50
             money['50_bill'] += 1
             continue
-        if money['crrt_money'] >= 20:
-            money['crrt_money'] -= 20
+        if money['crnt_money'] >= 20:
+            money['crnt_money'] -= 20
             money['20_bill'] += 1
             continue
-        if money['crrt_money'] >= 10:
-            money['crrt_money'] -= 10
+        if money['crnt_money'] >= 10:
+            money['crnt_money'] -= 10
             money['10_bill'] += 1
             continue
-        if money['crrt_money'] >= 5:
-            money['crrt_money'] -= 5
+        if money['crnt_money'] >= 5:
+            money['crnt_money'] -= 5
             money['5_bill'] += 1
             continue
-        if money['crrt_money'] >= 1:
-            money['crrt_money'] -= 1
+        if money['crnt_money'] >= 1:
+            money['crnt_money'] -= 1
             money['1_bill'] += 1
             continue
-        if money['crrt_money'] >= 0.75:
-            money['crrt_money'] -= 0.75
+        if money['crnt_money'] >= 0.75:
+            money['crnt_money'] -= 0.75
             money['75_cent'] += 1
             continue
-        if money['crrt_money'] >= 0.50:
-            money['crrt_money'] -= 0.50
+        if money['crnt_money'] >= 0.50:
+            money['crnt_money'] -= 0.50
             money['50_cent'] += 1
             continue
-        if money['crrt_money'] >= 0.25:
-            money['crrt_money'] -= 0.25
+        if money['crnt_money'] >= 0.25:
+            money['crnt_money'] -= 0.25
             money['25_cent'] += 1
             continue
-        if money['crrt_money'] >= 0.10:
-            money['crrt_money'] -= 0.10
+        if money['crnt_money'] >= 0.10:
+            money['crnt_money'] -= 0.10
             money['10_cent'] += 1
             continue
-        if money['crrt_money'] >= 0.05:
-            money['crrt_money'] -= 0.05
+        if money['crnt_money'] >= 0.05:
+            money['crnt_money'] -= 0.05
             money['5_cent'] += 1
             continue
-        if money['crrt_money'] >= 0.01:
-                money['crrt_money'] -= 0.01
+        if money['crnt_money'] >= 0.01:
+                money['crnt_money'] -= 0.01
                 money['1_cent'] += 1
                 continue
         break
